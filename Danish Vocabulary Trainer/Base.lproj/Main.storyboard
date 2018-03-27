@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,168 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Danish_Vocabulary_Trainer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" axis="vertical" distribution="equalSpacing" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Exq-bE-eQj">
+                                <rect key="frame" x="0.0" y="50" width="375" height="101.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Danish Vocabulary Trainer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jzh-oY-ccj">
+                                        <rect key="frame" x="87.5" y="0.0" width="200" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5DL-QP-sDK">
+                                        <rect key="frame" x="160" y="40.5" width="55.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehx-wR-saF">
+                                        <rect key="frame" x="163.5" y="81" width="48" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="oqN-tD-9gn">
+                                <rect key="frame" x="0.0" y="311.5" width="375" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9q-a1-Jng">
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.97104320209999995" blue="0.22370991209999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Perfectum"/>
+                                        <connections>
+                                            <action selector="btnsClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2km-os-qHH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WMa-ge-4Bw">
+                                        <rect key="frame" x="125" y="0.0" width="125" height="30"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <state key="normal" title="Sentence"/>
+                                        <connections>
+                                            <action selector="btnsClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xyb-n3-DFR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Npm-4I-B4Z">
+                                        <rect key="frame" x="250" y="0.0" width="125" height="30"/>
+                                        <color key="backgroundColor" red="0.91607584190000002" green="1" blue="0.58716484449999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Nepali"/>
+                                        <connections>
+                                            <action selector="btnsClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LES-kp-iic"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="VaZ-6u-aTG">
+                                <rect key="frame" x="0.0" y="191.5" width="375" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOr-gw-fH8">
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="30"/>
+                                        <color key="backgroundColor" red="0.9518548846244812" green="0.96360522508621216" blue="0.2816602885723114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Next"/>
+                                        <connections>
+                                            <action selector="nextClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tlH-0h-POA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uT0-8X-hr6">
+                                        <rect key="frame" x="125" y="0.0" width="125" height="30"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <state key="normal" title="Play"/>
+                                        <connections>
+                                            <action selector="playClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2PV-29-TWm"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="011-QY-T0L">
+                                        <rect key="frame" x="250" y="0.0" width="125" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.97104320209999995" blue="0.22370991209999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Hide"/>
+                                        <connections>
+                                            <action selector="hide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mb4-kX-b0T"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7cO-wV-BS1">
+                                <rect key="frame" x="0.0" y="251.5" width="375" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6nP-c1-pgy">
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.94235946540000004" blue="0.51443213190000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                        <state key="normal" title="Infinitiv"/>
+                                        <connections>
+                                            <action selector="btnsClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="93h-wR-egN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ofd-xb-HKv">
+                                        <rect key="frame" x="125" y="0.0" width="125" height="30"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <state key="normal" title="Nutid"/>
+                                        <connections>
+                                            <action selector="btnsClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8NS-4e-ut2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SX2-PW-V5Y">
+                                        <rect key="frame" x="250" y="0.0" width="125" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.97104320209999995" blue="0.22370991209999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Datid"/>
+                                        <connections>
+                                            <action selector="btnsClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a5j-EA-Y0S"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PeD-tE-eXk" customClass="GADBannerView">
+                                <rect key="frame" x="27.5" y="617" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="MSC-wV-KXB"/>
+                                    <constraint firstAttribute="width" constant="320" id="TGW-pr-ezD"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oqN-tD-9gn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8Lw-1z-vlP"/>
+                            <constraint firstItem="Exq-bE-eQj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="H1l-Cy-bcn"/>
+                            <constraint firstItem="7cO-wV-BS1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KeH-KG-cci"/>
+                            <constraint firstItem="7cO-wV-BS1" firstAttribute="top" secondItem="VaZ-6u-aTG" secondAttribute="bottom" constant="30" id="M32-PR-X7j"/>
+                            <constraint firstItem="PeD-tE-eXk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MHX-NQ-obS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VaZ-6u-aTG" secondAttribute="trailing" id="O0l-Dy-cPM"/>
+                            <constraint firstItem="Exq-bE-eQj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="RT9-Xt-gvD"/>
+                            <constraint firstItem="VaZ-6u-aTG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="V0Q-5m-gMw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oqN-tD-9gn" secondAttribute="trailing" id="cOI-Yb-O0D"/>
+                            <constraint firstItem="PeD-tE-eXk" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="hF1-pZ-8aG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7cO-wV-BS1" secondAttribute="trailing" id="kqS-BY-HWJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Exq-bE-eQj" secondAttribute="trailing" id="sMp-TB-3i8"/>
+                            <constraint firstItem="oqN-tD-9gn" firstAttribute="top" secondItem="7cO-wV-BS1" secondAttribute="bottom" constant="30" id="xh9-ta-oSy"/>
+                            <constraint firstItem="VaZ-6u-aTG" firstAttribute="top" secondItem="Exq-bE-eQj" secondAttribute="bottom" constant="40" id="yMY-ET-4ve"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="Next" destination="UOr-gw-fH8" id="b81-Aw-1VE"/>
+                        <outlet property="bannerView" destination="PeD-tE-eXk" id="uNK-D1-SXg"/>
+                        <outlet property="datid" destination="SX2-PW-V5Y" id="5LT-CU-eEe"/>
+                        <outlet property="english" destination="5DL-QP-sDK" id="87i-Og-JN3"/>
+                        <outlet property="hide" destination="011-QY-T0L" id="cIx-sV-HW8"/>
+                        <outlet property="infinitiv" destination="6nP-c1-pgy" id="k44-St-8DE"/>
+                        <outlet property="nepali" destination="Npm-4I-B4Z" id="MTx-uH-3jk"/>
+                        <outlet property="nutid" destination="Ofd-xb-HKv" id="wRi-PU-nZj"/>
+                        <outlet property="perfectum" destination="a9q-a1-Jng" id="CDb-Op-epg"/>
+                        <outlet property="play" destination="uT0-8X-hr6" id="3vp-ya-FdW"/>
+                        <outlet property="result" destination="ehx-wR-saF" id="GtD-Ee-ojc"/>
+                        <outlet property="sentence" destination="WMa-ge-4Bw" id="QXV-5N-1mI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-9882" y="-9358"/>
         </scene>
     </scenes>
 </document>

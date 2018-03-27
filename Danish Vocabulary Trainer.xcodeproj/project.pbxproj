@@ -12,6 +12,10 @@
 		8E0385EB1FD8F5FC0030B6F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E0385E91FD8F5FC0030B6F4 /* Main.storyboard */; };
 		8E0385ED1FD8F5FD0030B6F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E0385EC1FD8F5FD0030B6F4 /* Assets.xcassets */; };
 		8E0385F01FD8F5FD0030B6F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E0385EE1FD8F5FD0030B6F4 /* LaunchScreen.storyboard */; };
+		8E4C54B61FDC3E22000BDF47 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4C54B51FDC3E22000BDF47 /* GameKit.framework */; };
+		8E4C54B81FDC3E23000BDF47 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4C54B71FDC3E23000BDF47 /* PassKit.framework */; };
+		8E5473F72024241A00D70ADD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E5473F62024241A00D70ADD /* GoogleService-Info.plist */; };
+		EA2E96C279E6ADCCA642F459 /* Pods_Danish_Vocabulary_Trainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C03D6B4C2FC243FFB5F2B9 /* Pods_Danish_Vocabulary_Trainer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,14 @@
 		8E0385EC1FD8F5FD0030B6F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E0385EF1FD8F5FD0030B6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E0385F11FD8F5FD0030B6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E4C54B41FDC3E18000BDF47 /* Danish Vocabulary Trainer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Danish Vocabulary Trainer.entitlements"; sourceTree = "<group>"; };
+		8E4C54B51FDC3E22000BDF47 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		8E4C54B71FDC3E23000BDF47 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		8E5473F62024241A00D70ADD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8E6FD1BD1FD9DEBD0033A0CA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CB005EAF8681021515B54AD6 /* Pods-Danish Vocabulary Trainer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Danish Vocabulary Trainer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Danish Vocabulary Trainer/Pods-Danish Vocabulary Trainer.release.xcconfig"; sourceTree = "<group>"; };
+		D8C03D6B4C2FC243FFB5F2B9 /* Pods_Danish_Vocabulary_Trainer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Danish_Vocabulary_Trainer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE676C22A1D28272AE0AC7E8 /* Pods-Danish Vocabulary Trainer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Danish Vocabulary Trainer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Danish Vocabulary Trainer/Pods-Danish Vocabulary Trainer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E4C54B81FDC3E23000BDF47 /* PassKit.framework in Frameworks */,
+				8E4C54B61FDC3E22000BDF47 /* GameKit.framework in Frameworks */,
+				EA2E96C279E6ADCCA642F459 /* Pods_Danish_Vocabulary_Trainer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		711E42C92E1058ADE2999654 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE676C22A1D28272AE0AC7E8 /* Pods-Danish Vocabulary Trainer.debug.xcconfig */,
+				CB005EAF8681021515B54AD6 /* Pods-Danish Vocabulary Trainer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8E0385D91FD8F5FC0030B6F4 = {
 			isa = PBXGroup;
 			children = (
 				8E0385E41FD8F5FC0030B6F4 /* Danish Vocabulary Trainer */,
 				8E0385E31FD8F5FC0030B6F4 /* Products */,
+				8E6FD1BC1FD9DEBD0033A0CA /* Frameworks */,
+				711E42C92E1058ADE2999654 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +80,27 @@
 		8E0385E41FD8F5FC0030B6F4 /* Danish Vocabulary Trainer */ = {
 			isa = PBXGroup;
 			children = (
+				8E4C54B41FDC3E18000BDF47 /* Danish Vocabulary Trainer.entitlements */,
 				8E0385E51FD8F5FC0030B6F4 /* AppDelegate.swift */,
 				8E0385E71FD8F5FC0030B6F4 /* ViewController.swift */,
 				8E0385E91FD8F5FC0030B6F4 /* Main.storyboard */,
 				8E0385EC1FD8F5FD0030B6F4 /* Assets.xcassets */,
 				8E0385EE1FD8F5FD0030B6F4 /* LaunchScreen.storyboard */,
 				8E0385F11FD8F5FD0030B6F4 /* Info.plist */,
+				8E5473F62024241A00D70ADD /* GoogleService-Info.plist */,
 			);
 			path = "Danish Vocabulary Trainer";
+			sourceTree = "<group>";
+		};
+		8E6FD1BC1FD9DEBD0033A0CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E4C54B71FDC3E23000BDF47 /* PassKit.framework */,
+				8E4C54B51FDC3E22000BDF47 /* GameKit.framework */,
+				8E6FD1BD1FD9DEBD0033A0CA /* AVFoundation.framework */,
+				D8C03D6B4C2FC243FFB5F2B9 /* Pods_Danish_Vocabulary_Trainer.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E0385F41FD8F5FD0030B6F4 /* Build configuration list for PBXNativeTarget "Danish Vocabulary Trainer" */;
 			buildPhases = (
+				43113381D9B7D724AB8B3752 /* [CP] Check Pods Manifest.lock */,
 				8E0385DE1FD8F5FC0030B6F4 /* Sources */,
 				8E0385DF1FD8F5FC0030B6F4 /* Frameworks */,
 				8E0385E01FD8F5FC0030B6F4 /* Resources */,
+				79F9C1ACBC59C0B62B77B6B8 /* [CP] Embed Pods Frameworks */,
+				186ED029B61285EED7D03C8A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +139,23 @@
 					8E0385E11FD8F5FC0030B6F4 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+							com.apple.Wallet = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -124,12 +183,69 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E0385F01FD8F5FD0030B6F4 /* LaunchScreen.storyboard in Resources */,
+				8E5473F72024241A00D70ADD /* GoogleService-Info.plist in Resources */,
 				8E0385ED1FD8F5FD0030B6F4 /* Assets.xcassets in Resources */,
 				8E0385EB1FD8F5FC0030B6F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		186ED029B61285EED7D03C8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Danish Vocabulary Trainer/Pods-Danish Vocabulary Trainer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43113381D9B7D724AB8B3752 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Danish Vocabulary Trainer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79F9C1ACBC59C0B62B77B6B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Danish Vocabulary Trainer/Pods-Danish Vocabulary Trainer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Danish Vocabulary Trainer/Pods-Danish Vocabulary Trainer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8E0385DE1FD8F5FC0030B6F4 /* Sources */ = {
@@ -272,14 +388,20 @@
 		};
 		8E0385F51FD8F5FD0030B6F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE676C22A1D28272AE0AC7E8 /* Pods-Danish Vocabulary Trainer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Danish Vocabulary Trainer/Danish Vocabulary Trainer.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Z9B6CZ95C;
 				INFOPLIST_FILE = "Danish Vocabulary Trainer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "krishnaamen.Danish-Vocabulary-Trainer";
+				PRODUCT_BUNDLE_IDENTIFIER = "Danish-DMK.VocabularyTrainer123";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +409,20 @@
 		};
 		8E0385F61FD8F5FD0030B6F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB005EAF8681021515B54AD6 /* Pods-Danish Vocabulary Trainer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Danish Vocabulary Trainer/Danish Vocabulary Trainer.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Z9B6CZ95C;
 				INFOPLIST_FILE = "Danish Vocabulary Trainer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "krishnaamen.Danish-Vocabulary-Trainer";
+				PRODUCT_BUNDLE_IDENTIFIER = "Danish-DMK.VocabularyTrainer123";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
