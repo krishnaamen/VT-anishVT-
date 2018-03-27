@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Danish Vocabulary Trainer/ViewController.swift"
+            timestampString = "542299748.417701"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "btnsClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Danish Vocabulary Trainer/ViewController.swift"
+            timestampString = "542299748.417762"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Danish Vocabulary Trainer/ViewController.swift"
+            timestampString = "542299748.417807"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Danish Vocabulary Trainer/ViewController.swift"
+            timestampString = "542299748.4178489"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Danish_Vocabulary_Trainer.ViewController.nutidWord.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Danish Vocabulary Trainer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krishnaprasadkhanal/Desktop/xcode/Danish%20Vocabulary%20Trainer/Danish%20Vocabulary%20Trainer/ViewController.swift"
+                  timestampString = "534505036.39338"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Danish_Vocabulary_Trainer.ViewController.nutidWord.setter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Danish Vocabulary Trainer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krishnaprasadkhanal/Desktop/xcode/Danish%20Vocabulary%20Trainer/Danish%20Vocabulary%20Trainer/ViewController.swift"
+                  timestampString = "534505036.546018"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Danish_Vocabulary_Trainer.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Danish_Vocabulary_Trainer.ViewController"
+                  moduleName = "Danish Vocabulary Trainer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krishnaprasadkhanal/Desktop/xcode/Danish%20Vocabulary%20Trainer/Danish%20Vocabulary%20Trainer/ViewController.swift"
+                  timestampString = "534505036.550228"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "38098">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Danish_Vocabulary_Trainer.ViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Danish_Vocabulary_Trainer.ViewController&gt;"
+                  moduleName = "Danish Vocabulary Trainer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krishnaprasadkhanal/Desktop/xcode/Danish%20Vocabulary%20Trainer/Danish%20Vocabulary%20Trainer/ViewController.swift"
+                  timestampString = "534505036.553965"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "37977">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

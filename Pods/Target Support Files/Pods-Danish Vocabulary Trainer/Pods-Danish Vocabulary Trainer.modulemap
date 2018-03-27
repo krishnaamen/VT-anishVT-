@@ -1,0 +1,6 @@
+framework module Pods_Danish_Vocabulary_Trainer {
+  umbrella header "Pods-Danish Vocabulary Trainer-umbrella.h"
+
+  export *
+  module * { export * }
+}
